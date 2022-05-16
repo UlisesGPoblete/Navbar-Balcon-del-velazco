@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:wght@300&family=Macondo&display=swap');
+
+* {
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+    text-decoration: none;    
+}
+
+body {
+    font-family: Lato;
+}
+
+.imagen {
+    height: 250%
+}
+
+.header {
+    background: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   padding: 0 20px;
+}
+
+.ul {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+
+}
+
+.navlink {
+    color: rgb(51, 155, 155);
+    }
+
+.navlink:hover {
+    text-decoration: underline;
+    color: black; 
+}
+
+
+
+
+
+
+
