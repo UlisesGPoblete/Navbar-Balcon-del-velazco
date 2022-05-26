@@ -1,48 +1,234 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:wght@300&family=Macondo&display=swap');
 
 * {
-    margin: o;
-    padding: o;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    text-decoration: none;    
-}
+    text-decoration: none;
+    
+    }
 
 body {
     font-family: Lato;
-}
-
-.imagen {
-    height: 250%
+    /* background-color:grey; */
+    width: 100vw;
+    max-width: 100%;
 }
 
 .header {
-    background: white;
-    height: 50px;
+    /* background: gray; */
     display: flex;
-    justify-content: space-between;
-   align-items: center;
-   padding: 0 20px;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding: 0 20px; */
 }
+
 
 .ul {
     display: flex;
-    gap: 80px;
     list-style: none;
+    height: 20px;
+    padding: 0 20px;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+    align-items: center;
 
 }
 
 .navlink {
-    color: rgb(51, 155, 155);
+    color: black;
     }
+
 
 .navlink:hover {
     text-decoration: underline;
-    color: black; 
+    color: black;
+}
+
+.imagen {
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav {
+    display: flex;
+    background-color: grey;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    padding: 8px 8px 8px 8px;
+    max-width: 100%;
+    
+}
+
+ .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 
+.logincointainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    max-width: 400px;
+}
+
+form label {
+    padding-bottom: 10px;
+    }
+form input {
+    margin-bottom: 5px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    padding: 0 20px;
+}
+
+input:focus {
+    outline: none;
 }
 
 
+/* Section 2 */
 
+.about-section {
+    background-color: rgba(78, 73, 73, 0.473);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+* img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    padding: none;
+}
 
+.about-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagenquincho {
+   width: 50%;
+   margin: 1rem auto;
 
+   display: flex;
+   max-width: 250px;
+   }
+
+   .imagenes {
+       display: flex;
+       justify-content: first baseline;
+       gap: 25px;
+       max-width: 100%;
+   }
+ 
+.about-content p {
+    font-size: 1.5rem;
+    margin: 1rem 0 4rem 0;
+    text-align: center;
+    font-weight: bold;
+    font-stretch: condensed;
+    }
+
+ .description-section {
+    background-color: rgba(78, 73, 73, 0.473);
+    padding: 2rem 0;
+     }   
+
+.card-conteiner h2 {
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+.description-section p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    max-width: 300px;
+    margin: 2rem auto 2rem auto;
+    font-weight: bold;    
+     }
+
+.boton {
+border: 1px solid #065506; 
+padding: 10px; 
+background-color: #030507; 
+color: #ffffff; 
+text-decoration: none; 
+text-transform: uppercase; 
+font-family: 'Helvetica', sans-serif; 
+border-radius: 50px; 
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.info-card {
+    width: 40%;
+    margin-bottom: 2rem;
+}
+    
+.card-conteiner {
+    background-color: rgba(78, 73, 73, 0.473);
+    display: flex;
+    gap: auto;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem; 
+    }
+
+/* Seccion 4 */
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 1rem auto;
+}
+
+footer .title {
+    width: 5rem;
+    margin-bottom: 2rem;
+}
+
+.Contacto {
+    margin-bottom: 2rem;
+    }
+
+.Contacto a {
+    color: black
+}
 
